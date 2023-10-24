@@ -74,7 +74,7 @@ suite('Unit Tests', function () {
       assert.isBelow(2 / 3, 1);
     });
     // #10
-    test.only('#approximately', function () {
+    test('#approximately', function () {
       assert.approximately(weirdNumbers(0.5), 1, 0);
       assert.approximately(weirdNumbers(0.2), 1, 0);
     });
